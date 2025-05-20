@@ -1,0 +1,133 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,700;1,14..32,700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+:root{
+    --cor-primaria: #ffffff;
+    --cor-secundária:#C0C0C0;
+    --cor-botao: #167bf7;
+    --cor-fundo:#00030C;
+    --fonte-principal: "Inter", sans-serif;
+
+}
+
+body{
+    background-color: var(--cor-fundo);
+    box-sizing: border-box;
+    font-size: 1rem;
+    font-weight: 400;
+    font-family: var(--fonte-principal);
+}  
+.titulo{
+    background-image: url(./assents/Background.png);
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: contain;  
+    display: grid; 
+    grid-template-columns: 50% 50%;
+    align-items: center;
+    text-align: center;
+}
+.titulo__titulo{
+    margin:0 6em;
+}
+.titulo__paragrafo{
+    color: var(--cor-primaria);
+    font-family:var(--fonte-principal);
+    font-weight: 700;
+    text-align: center;
+    font-size: 36px;
+}
+.titulo__imagem{
+   margin: 1em 0 2em 0;
+}
+.titulo__botao{
+    color: var(--cor-primaria);
+    border-radius: 5px;
+    background-color: var(--cor-botao);
+    text-align: center;
+    text-decoration: none;
+    padding: 1em;
+    display: block;
+    font-family: var(--fonte-principal);
+    font-weight: 400;
+    margin-bottom: 1em;
+}
+.botao2{
+    background-color: transparent;
+    border: 2px solid var(--cor-secundária);
+}
+.titulo__aviso{
+ color: var(--cor-secundária);
+ font-size: 12px;
+}
+.plataforma{
+    display: grid; 
+    grid-template-columns: 50% 50%;
+    align-items: center;
+    margin: 15em 10em;
+}
+.plataforma__imagem{
+    width: 70%;
+}
+.plataforma__titulo{
+    color: var(--cor-primaria);
+    font-weight: 700;
+    font-size: 48px;
+    margin-bottom: 0.2em;
+}
+.plataforma__paragrafo{
+    color: var(--cor-secundária);
+    font-weight: 400;
+    
+}
+.botao3{
+    width: 20%;
+    margin-top: 1em;
+}
+.descricao{
+    padding: 2em;
+}
+.dispositivos{
+    margin-bottom: 12em;
+}
+.dispositivos__texto{
+    color: var(--cor-primaria);
+    font-size: 48px;
+    text-align: center;
+    margin-bottom: 2em;
+}
+.icones{
+   display: flex;
+   justify-content: space-around;
+   text-align: center;
+   list-style-type: none;
+}
+.disposivivos__dispositivos{
+    color:var(--cor-primaria);
+    font-size: 32px;
+    font-weight: 700;
+}
+.rodape{
+   text-align: center;
+}
+.rodape__botao{
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    margin-top: 3em;
+    margin-bottom: 1em;
+}
+.botao4{
+    color: var(--cor-primaria);
+    font-size: 1rem;
+    text-decoration: none;
+    font-weight: 400;
+}
+.rodape__paragrafo{
+    color: var(--cor-secundária);
+    font-size: 14px;
+    margin: 2em 0 2em 0;
+}
